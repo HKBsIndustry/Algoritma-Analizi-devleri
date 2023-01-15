@@ -1,0 +1,19 @@
+Elimizde bulunan veri : [16,21,11,8,12,22]
+
+-Merge Sort aşamaları;
+
+[16,21,11]    [8,12,22]
+
+[16]  [21,11]    [8]  [12,22]
+
+[16] [21] [11]    [8] [12] [22]
+
+[16,21] [11]    [8,12] [22]
+
+[11,16,21]    [8,12,22]
+
+[8,11,12,16,21,22]
+
+-Burada O(log(n)) adet bölme işlemi ve her bölünmüş satırda O(n) sorgu işlemi yapılacaktır. 
+Bu sıralama algoritmasının Big O Notion formülü O(nlog(n)) olacaktır.
+O(6 * log(6)) = 6 * 0.778 = 4.668 olur.
